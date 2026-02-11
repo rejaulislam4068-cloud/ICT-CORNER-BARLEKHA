@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Barlekha Govt. Degree College</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body {margin:0;font-family:Arial, sans-serif;line-height:1.6;background:#f7f7f7;}
+    
+    /* Header with logo and name */
+    header {display:flex; align-items:center; padding:10px 40px; background:#002147; color:#fff;}
+    header img {height:60px; margin-right:15px;}
+    header h1 {margin:0; font-size:24px;}
+    
+    /* Navigation section */
+    nav {background:#004080; padding:10px 40px;}
+    nav a {color:#fff;margin-right:20px;text-decoration:none;font-size:16px; font-weight:bold;}
+    nav a:hover {color:#ffcc00;}
+    
+    /* Hero section */
+    .hero {background:#000;color:white;padding:100px 40px;text-align:center;}
+    .hero h1 {font-size:48px;margin:0;}
+    .hero p {font-size:20px;margin-top:10px;}
+    .btn {display:inline-block;padding:12px 25px;margin-top:20px;background:#ffcc00;color:#000;
+        text-decoration:none;border-radius:5px;font-weight:bold;}
+    
+    /* General sections */
+    .section {padding:60px 40px;background:white;margin:20px auto;max-width:1200px;border-radius:8px;}
+    h2, h3 {text-align:center;color:#003366;}
+    h2 {margin-bottom:30px;}
+    h3 {margin-bottom:20px;}
+    .grid {display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:20px;}
+    .card {background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+    footer {background:#002147;color:#fff;text-align:center;padding:25px;margin-top:40px;}
+    ul {list-style-type:none;padding-left:0;}
+    ul li {padding:8px 0;}
+    
+    /* Principal message */
+    .principal-message {text-align:center; padding:30px 20px;}
+    .principal-message img {width:150px; border-radius:50%; margin-bottom:15px;}
+    
+    /* Teacher section black background */
+    .teachers-section {background:#000;color:#fff;border-radius:8px;padding:60px 40px;}
+    .teacher-card {text-align:center; background:#1a1a1a; color:#fff; position:relative; overflow:hidden; border-radius:8px; padding:20px;}
+    .teacher-card img {width:100%; border-radius:50%; margin-bottom:15px; transition: transform 0.3s;}
+    .teacher-card:hover img {transform: scale(1.1);}
+    .overlay {position:absolute; bottom:0; background:rgba(0,0,0,0.85); color:#fff; width:100%; text-align:center; padding:15px; opacity:0; transition: opacity 0.3s; border-radius:0 0 8px 8px;}
+    .teacher-card:hover .overlay {opacity:1;}
+</style>
+</head>
+
+<body>
+
+<!-- Header with Logo and College Name -->
+<header>
+    <img src="https://via.placeholder.com/80x80" alt="College Logo">
+    <h1>Barlekha Govt. Degree College</h1>
+</header>
+
+<!-- Navigation Section -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Academic</a>
+    <a href="#">Departments</a>
+    <a href="#">Admission</a>
+    <a href="#">Notices</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Barlekha Govt. Degree College</h1>
+    <p>A Premier Government Institution for Higher Education Since 1986</p>
+    <a class="btn" href="#">Apply Now</a>
+    <a class="btn" href="#">Learn More</a>
+</section>
+
+<!-- About Section -->
+<div class="section">
+    <h2>About Us</h2>
+    <p>
+        Established in 1986, Barlekha Govt. Degree College is a reputed public institution located in 
+        Barlekha, Moulvibazar. The college is committed to academic excellence, ethical values, 
+        modern learning facilities, and a peaceful campus environment. With experienced faculty and 
+        an ICT-enabled academic system, it stands as a leading center of higher education.
+    </p>
+</div>
+
+<!-- Why Choose Us -->
+<div class="section">
+    <h2>Why Choose Us</h2>
+    <div class="grid">
+        <div class="card">Government Institution</div>
+         <div class="card">Affordable admission and tutionand   Fee</div>
+          <div class="card">Highly Experienced Teachers</div>
+         <div class="card">library Facilites</div>
+         <div class="card">common room facilites </div>
+         <div class="card">Canteen Facilites</div>
+      
+        <div class="card">Excellent Academic Results</div>
+        <div class="card">Modern ICT Lab</div>
+        <div class="card">Green & Safe Campus</div>
+        <div class="card">Active Cultural Activities</div>
+    </div>
+</div>
+
+<!-- Academic Departments -->
+<div class="section">
+    <h2>Academic Departments</h2>
+    <div class="grid">
+        <div class="card"><strong>Humanities Department</strong></div>
+        <div class="card"><strong>Science Department</strong></div>
+        <div class="card"><strong>Business Studies Department</strong></div>
+        <div class="card"><strong>Degree Pass</strong></div>
+    </div>
+</div>
+
+<!-- Facilities -->
+<div class="section">
+    <h2>Facilities</h2>
+    <div class="grid">
+        <div class="card">Modern ICT Lab</div>
+        <div class="card">Enriched Library</div>
+        <div class="card">Spacious Mulitimedia  Classrooms</div>
+        <div class="card">Extra curriculum  Activities</div>
+        <div class="card">Green & Clean Campus</div>
+        <div class="card">Safe Learning Environment</div>
+         <div class="card">Sports Activities</div>
+    </div>
+</div>
+
+<!-- Notice Board -->
+<div class="section">
+    <h2>Notice Board</h2>
+    <ul>
+        <li>📌 Admission Circular 2026 (Updated)</li>
+        <li>📌 Class Routine – All Departments</li>
+        <li>📌 Examination Notice – Semester & Annual</li>
+        <li>📌 Cultural Week Program Schedule</li>
+    </ul>
+</div>
+
+<!-- Message from Principal -->
+<div class="section principal-message">
+    <h2>Message from the Principal</h2>
+    <p>
+        “Barlekha Govt. Degree College is committed to creating a disciplined, academically sound, 
+        and morally responsible generation. We aim to provide quality, inclusive education and prepare 
+        students for future leadership roles through innovation and integrity.”
+    </p>
+    <img src="https://via.placeholder.com/150" alt="Professor Tufail Ahmed">
+    <br>
+    <strong>Professor Tufail Ahmed</strong><br>
+    Principal, BCS Education
+</div>
+
+<!-- Teachers Section with Name, Email, Qualification -->
+<div class="teachers-section">
+    <h2>Our Respected Teachers</h2>
+    <p style="text-align:center; max-width:900px; margin:0 auto 30px;">
+        Barlekha Govt. Degree College boasts highly qualified and dedicated faculty members who are committed to academic excellence, mentorship, and holistic student development.
+    </p>
+
+    <div class="grid">
+
+        <!-- Principal -->
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Professor Tufail Ahmed">
+            <div class="overlay">
+                <strong>Professor Tufail Ahmed</strong><br>
+                Email: tufail@example.com<br>
+                BCS Education, Principal
+            </div>
+        </div>
+
+        <!-- Humanities Department -->
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Sobur Sir">
+            <div class="overlay">
+                <strong>Sobur Sir</strong><br>
+                Email: rejaul@example.com<br>
+                Lecturer, English
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Bidan sir">
+            <div class="overlay">
+                <strong>Bidan sir </strong><br>
+                Email: fatema@example.com<br>
+                Lecturer, Bangla
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Shabbir sir">
+            <div class="overlay">
+                <strong>Shabbir sir </strong><br>
+                Email: jahidul@example.com<br>
+                Assistant Professor, History
+            </div>
+        </div>
+
+        <!-- Science Department -->
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="ROhim sir">
+            <div class="overlay">
+                <strong>Rohim sir</strong><br>
+                Email: minhazul@example.com<br>
+                Associate Professor, ICT
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Polash Sir">
+            <div class="overlay">
+                <strong>Polash Sir</strong><br>
+                Email: sara@example.com<br>
+                Lecturer, Physics
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="jakir sir">
+            <div class="overlay">
+                <strong>jakir sir </strong><br>
+                Email: rafiq@example.com<br>
+                Lecturer, Chemistry
+            </div>
+        </div>
+
+        <!-- Business & Commerce -->
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="xxxx sir">
+            <div class="overlay">
+                <strong>xxxx sir</strong><br>
+                Email: nasima@example.com<br>
+                Lecturer, Accounting
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Kamrul Hasan">
+            <div class="overlay">
+                <strong>Kamrul Hasan</strong><br>
+                Email: kamrul@example.com<br>
+                Lecturer, Business Studies
+            </div>
+        </div>
+        <div class="teacher-card">
+            <img src="https://via.placeholder.com/150" alt="Sara Ahmed">
+            <div class="overlay">
+                <strong>Sara Ahmed</strong><br>
+                Email: sara.ahmed@example.com<br>
+                Lecturer, Economics
+            </div>
+        </div>
+
+    </div>
+
+    <p style="text-align:center; margin-top:30px;">
+        <a class="btn" href="#">View Full Faculty List</a>
+    </p>
+</div>
+
+<footer>
+    © 2026 Barlekha Govt. Degree College | Barlekha, Moulvibazar  
+    <br> All Rights Reserved
+</footer>
+
+</body>
+</html>
